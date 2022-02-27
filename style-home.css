@@ -1,0 +1,118 @@
+.titulo-principal {
+
+    padding: 20px 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(151, 126, 126);
+    text-decoration: none;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(151, 126, 126);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #eeb74a;
+    text-decoration: underline;
+
+}
+
+.banner {
+    width: 10%;
+}
+
+.principal {
+
+    background: #d7ebf1;
+    padding: 40px;
+    
+}
+
+.titulo-centralizado {
+
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(92, 76, 76);
+    text-decoration: none;
+} 
+
+#missao {
+ 
+    font-size: 20px
+}
+
+p {
+    text-align: center;
+}
+
+em strong {
+
+    color: #149cc5;
+}
+
+.itens {
+
+    font-style: italic;
+}
+
+.maisAcessados {
+
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+
+}
+.gestacao {
+
+    width: 50%
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background: url("textura.jpg");
+
+}
+
+.logoclara {
+
+    width: 8%;
+    padding: 20px 30px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 14px;
+
+}

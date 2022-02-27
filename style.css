@@ -1,0 +1,448 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+}
+
+/* CABEÇALHO */
+
+header {
+    background: #abd4e0;
+    padding: 15px 0;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: #ffffff;
+}
+
+.caixa {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.brand {
+    align-items: center;
+    display: flex;
+}
+
+#logoEscura {
+    width: 13%;
+    padding: 15px 20px;
+}
+
+.titulo-logo {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(151, 126, 126);
+}
+
+nav {
+    position: absolute;
+    top: 85px;
+    right: 50px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(151, 126, 126);
+}
+
+nav a:hover {
+    color: #eeb74a;
+    text-decoration: underline;
+}
+
+/*SITE PRODUTOS*/
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 60px 1.5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid #8a7d7d;
+    border-radius: 10px;
+
+}
+
+.produtos li:hover {
+    border-color: #eeb74a;
+    opacity: 0.8;
+    transition: 400ms;
+
+}
+
+.produtos li:active {
+
+    border-color: #7fc9c9;
+}
+
+.produtos li:hover h2 {
+
+    font-size: 35px;
+    transition: 400ms;
+}
+
+.produtos h2 {
+
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(95, 81, 81);
+    text-decoration: none;
+    margin-bottom: 15px;
+
+}
+
+.link {
+    font-size: 10px;
+    text-decoration: none;
+
+}
+
+.produto-descricao {
+    font-size: 18px;
+    margin-top: 15px;
+    
+    
+}
+
+.produto-preco {
+
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*RODAPÉ*/
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background: url("textura.jpg");
+    border-style: solid;
+    border-width: 2px 0 0;
+    border-color: #ffffff;
+
+}
+
+.logoclara {
+
+    width: 8%;
+    padding: 20px 30px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 14px;
+
+}
+
+/*SITE CONTATOS*/
+
+form {
+    width: 940px;
+    margin: 50px auto;
+}
+
+form label, form legend {
+    font-size: 20px;
+    display: block;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #318f4d;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #40c76b;
+    transform: scale(1.1);
+}
+
+.tabela {
+    width: 940px;
+    margin: 0 auto;
+}
+
+table {
+    margin: 20px 0 40px;
+    
+}
+
+thead {
+    background: #84b9c0;
+    color: #000000;
+    font-weight: bold;
+}
+
+td, th {
+
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/* CSS da página inicial */
+
+.banner {
+    width: 100%;
+    border-style: solid;
+    border-width: 0 0 5px;
+    border-color: #ffffff;
+
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.74);
+    clear: left;
+    line-height: 2.4;
+}
+
+#sobre {
+
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.cultura {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 5px 0;
+
+}
+
+.cultura li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align:baseline;
+    margin: 20px 1.5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 3px solid #423e3e;
+    border-radius: 10px;
+
+}
+
+.cultura li:hover {
+    border-color: #eeb74a;
+    opacity: 0.8;
+    transition: 400ms;
+
+}
+
+.cultura li:active {
+
+    border-color: #7fc9c9;
+}
+
+.cultura li:hover h2 {
+    transition: 400ms;
+}
+
+.cultura h2 {
+
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(95, 81, 81);
+    text-decoration: none;
+    margin-bottom: 15px;
+
+}
+
+.imagem-cultura {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cultura-descricao {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+
+}
+
+.divulgacao {
+    width: 180px;
+    float: left;
+    padding: 0 20px 20px 0;
+
+}
+
+.impactos {
+    padding: 40px;
+}
+
+.impactos p {
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.video {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.maisAcessados {
+    padding: 30px;
+}
+
+.conteudo-beneficios {
+    width: 840px;
+    margin: 0 auto;
+
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 2.4;
+}
+
+.itens:first-child {
+    font-weight: bold;
+
+}
+
+.itens::before {
+    content: "🔎";
+
+}
+.gestacao {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    border-radius: 0.2cm;
+    box-shadow: 7px 7px 10px  #5c8383;
+
+}
+
+.gestacao:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 480px) {
+   
+   /* PÁGINA PRINCIPAL*/
+
+    .caixa, .principal, .cultura, .cultura li, .maisAcessados, .mapa-conteudo, .video {
+        width: auto;
+
+    }
+
+    #logoEscura {
+        position: static;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav li {
+        position: static;
+    }
+
+    .lista-beneficios, .divulgacao {
+        width: 100%;
+    }
+
+    /* PÁGINA PRODUTOS*/
+
+   .produtos, .produtos li, .imagem-produtos {
+        width: auto;
+   }
+
+    /* PÁGINA CONTATOS*/
+
+    form, .tabela {
+        width: auto;
+
+    }
+
+    
+
+
+
+
+}
