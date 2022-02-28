@@ -6,4 +6,4 @@ Site de um projeto pessoal, com a finalidade de divulgção científica de temas
 
 ## SOFTWARES
 
-Para a criação da identidade visual e logotipos foi utilizado o software FIGMA. Para criação dos templates foi utilizado o CANVA PRO. O projeto foi escrito em HTML5 e CSS3.
+Para a criação da identidade visual e logotipos foi utilizado o software FIGMA. Para criação dos templates foi utilizado o CANVA PRO. O projeto foi escrito em HTML5, CSS3e JAVASCRIPT.
