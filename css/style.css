@@ -134,7 +134,7 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 40px 0;
-    background: url("textura.jpg");
+    background: url("/image/textura.jpg");
     border-style: solid;
     border-width: 2px 0 0;
     border-color: #ffffff;
