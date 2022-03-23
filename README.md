@@ -8,7 +8,7 @@ Site de um projeto pessoal, com a finalidade de divulgção científica de temas
 
 Para a criação da identidade visual e logotipos foi utilizado o software FIGMA. Para criação dos templates foi utilizado o CANVA PRO. O projeto foi escrito em HTML5, CSS3e JAVASCRIPT.
 
-<p align="center">
+<p align ="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
